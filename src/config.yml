@@ -1,0 +1,31 @@
+AllowCommand:
+  Commands:
+    #lower case
+    #exact command
+    - '/k invade'
+    - '/k claim'
+    - '/kingdom invade'
+    - '/kingdom claim'
+  From: 2000
+  To: 2200
+  Message: This Command is not allowed at this time period
+
+AllowEnd:
+  From: 2000
+  To: 2200
+  FallBackWorld:
+    Enter:
+      #kick player to a certain location when try to enter TheEnd
+      #must set to prevent spamming at console log
+      Name: 'world'
+      X: 0
+      Y: 0
+      Z: 0
+      Message: You are not allow to enter the end at this time period
+    Login:
+      #kick player to a certain location when try to login at TheEnd outside allow period
+      Name: 'world'
+      X: 0
+      Y: 0
+      Z: 0
+      Message: You are kicked from the end

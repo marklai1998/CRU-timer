@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://hub.spigotmc.org/javadocs/bukkit/overview-summary.html" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../CRUTimer">
+      <sourceFolder url="file://$MODULE_DIR$/../CRUTimer/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="spigot-1.12.2" level="project" />
+  </component>
+</module>

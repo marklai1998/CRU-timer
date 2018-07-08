@@ -1,0 +1,5 @@
+name: CRUTimer
+main: CRUTimer.MrMatches.CRUTimer
+version: 0.0.2
+authors: [MrMatchesExMark]
+description: Allow certain action in a given time period

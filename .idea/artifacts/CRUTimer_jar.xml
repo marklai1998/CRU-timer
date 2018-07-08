@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CRUTimer:jar">
+    <output-path>$PROJECT_DIR$/../CRUTimer/out/artifacts/CRUTimer_jar</output-path>
+    <root id="archive" name="CRUTimer.jar">
+      <element id="module-output" name="CRUTimer" />
+    </root>
+  </artifact>
+</component>
